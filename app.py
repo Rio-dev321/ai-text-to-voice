@@ -26,7 +26,7 @@ text = st.text_area(
 
 voice = st.selectbox(
     "Choose a voice",
-    ["Fritz-PlayAI", "Arista-PlayAI", "Angelo-PlayAI", "Atlas-PlayAI"]
+   ["autumn", "diana", "hannah", "austin", "daniel", "troy"]
 )
 
 if st.button("🎙️ Generate Voice", use_container_width=True):
