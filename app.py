@@ -36,7 +36,7 @@ if st.button("🎙️ Generate Voice", use_container_width=True):
         try:
             with st.spinner("Generating your audio..."):
                 response = client.audio.speech.create(
-                    model="playai-tts",
+                    model="canopylabs/orpheus-v1-english",
                     voice=voice,
                     input=text.strip(),
                     response_format="wav"
